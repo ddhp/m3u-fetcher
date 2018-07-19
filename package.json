@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "m3u8-parser": "^4.2.0",
+    "node-cmd": "^3.0.0",
+    "node-fetch": "^2.0.0",
+    "puppeteer": "^1.1.1",
+    "rimraf": "^2.6.2"
+  }
+}
