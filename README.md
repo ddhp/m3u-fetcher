@@ -1,4 +1,4 @@
-#m3u-fetcher
+# m3u-fetcher
 Download all files listed in given m3u file
 
 ## How to
