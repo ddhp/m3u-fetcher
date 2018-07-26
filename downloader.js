@@ -65,7 +65,7 @@ async function downloader (m3u8Url, jumpto) {
   let currentIndex = jumpto > 0 ? jumpto -1 : -1;
 
   function doFetch () {
-    if (currentIndex < segments.length -1) {
+    if (currentIndex <= segments.length -1) {
       currentIndex += 1;
     } else {
       console.log('fetch segments ended');
